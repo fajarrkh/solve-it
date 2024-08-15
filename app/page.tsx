@@ -1,7 +1,8 @@
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
-      <h1 className="text-3xl underline">Home</h1>
+      <h1>Welcome to the Dashboard</h1>
+      <p>This is the main page of your application.</p>
     </div>
-  )
+  );
 }
